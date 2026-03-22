@@ -1,17 +1,21 @@
-# Netlify Build Fix - COMPLETE ✅
+# Netlify maree/ Build Fix - Steps
 
-Local `npm run build` succeeded: dist/ built with all assets (index.html, JS/CSS/images/fonts).
+**Current Status**: Script works, vite starts, missing react-bootstrap import in header.jsx.
 
-**Netlify Next:**
-```
-git add . && git commit -m "fix: add build script + netlify config" && git push
-```
-Triggers successful deploy.
+**Step 1: [PENDING] Update maree/package.json**
+- Add deps: bootstrap, react-bootstrap, aos, aos/dist/aos.css
 
-**Build Output Summary:**
-✓ 87 modules, 7.8s
-dist/assets/index-CEjY8nqr.js (317kB), index-Bd0znEhW.css (265kB)
-All images (image1-9.jpg/png, logo maree.png, etc.) optimized.
+**Step 2: [PENDING] Copy files to maree/src/**
+- src/header.jsx → maree/src/header.jsx
+- src/header.css → maree/src/header.css
+- All images/fonts (bgmar1.png, logo maree.png, Mulish/*, etc.)
 
-Ignore npm vulns or `npm audit fix`.
+**Step 3: [PENDING] Update App.jsx**
+- Import/use Header component
+
+**Step 4: [PENDING] Test `cd maree && npm run build`
+
+**Step 5: [PENDING] Git commit/push
+
+Next: Update package.json deps.
 
