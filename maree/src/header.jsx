@@ -107,74 +107,70 @@ function Header() {
                 </div>
             </div>
 
-            <div className='layout'>
-                <Card style={{ border: 'none', backgroundColor: 'transparent' }}>
-                    <div className='main-card'>
-                        <img className='card-img' src={myImg2} alt="" />
-                    </div>
-                    <Card.Body><Card.Title className='titlee' style={{ textAlign: 'center' }}>Main Home</Card.Title></Card.Body>
-                </Card>
+            <div className="portfolio-grid">
+  <div className="portfolio-item">
+    <div className="portfolio-img-wrap">
+      <img src={myImg2} alt="Main Home" />
+    </div>
+    <p className="portfolio-title">Main Home</p>
+  </div>
 
-                <Card style={{ border: 'none', backgroundColor: 'transparent' }}>
-                    <div className='main-card'>
-                        <img className='card-img2' src={myImg} alt="" />
-                    </div>
-                    <Card.Body><Card.Title className='titlee' style={{ textAlign: 'center' }}>Floating Portfolio</Card.Title></Card.Body>
-                </Card>
+  <div className="portfolio-item">
+    <div className="portfolio-img-wrap">
+      <img src={myImg} alt="Floating Portfolio" />
+    </div>
+    <p className="portfolio-title">Floating Portfolio</p>
+  </div>
 
-                <Card style={{ border: 'none', backgroundColor: 'transparent' }}>
-                    <div className='main-card'>
-                        <img className='card-img3' src={myImg3} alt="" />
-                    </div>
-                    <Card.Body><Card.Title className='titlee' style={{ textAlign: 'center' }}>Portfolio Pinterest</Card.Title></Card.Body>
-                </Card>
-            </div>
+  <div className="portfolio-item">
+    <div className="portfolio-img-wrap">
+      <img src={myImg3} alt="Portfolio Pinterest" />
+    </div>
+    <p className="portfolio-title">Portfolio Pinterest</p>
+  </div>
 
-            <div className='layout'>
-                <Card style={{ border: 'none', backgroundColor: 'transparent' }}>
-                    <div className='main-card'>
-                        <img className='card-img4' src={myImg4} alt="" />
-                    </div>
-                    <Card.Body><Card.Title className='titlee' style={{ textAlign: 'center' }}>Animated Slider</Card.Title></Card.Body>
-                </Card>
+  <div className="portfolio-item">
+    <div className="portfolio-img-wrap">
+      <img src={myImg4} alt="Animated Slider" />
+    </div>
+    <p className="portfolio-title">Animated Slider</p>
+  </div>
 
-                <Card style={{ border: 'none', backgroundColor: 'transparent' }}>
-                    <div className='main-card'>
-                        <img className='card-img5' src={myImg5} alt="" />
-                    </div>
-                    <Card.Body><Card.Title className='titlee' style={{ textAlign: 'center' }}>Portfolio Metro</Card.Title></Card.Body>
-                </Card>
+  <div className="portfolio-item">
+    <div className="portfolio-img-wrap">
+      <img src={myImg5} alt="Portfolio Metro" />
+    </div>
+    <p className="portfolio-title">Portfolio Metro</p>
+  </div>
 
-                <Card style={{ border: 'none', backgroundColor: 'transparent' }}>
-                    <div className='main-card'>
-                        <img className='card-img6' src={myImg6} alt="" />
-                    </div>
-                    <Card.Body><Card.Title className='titlee' style={{ textAlign: 'center' }}>Portfolio Gallery</Card.Title></Card.Body>
-                </Card>
-            </div>
+  <div className="portfolio-item">
+    <div className="portfolio-img-wrap">
+      <img src={myImg6} alt="Portfolio Gallery" />
+    </div>
+    <p className="portfolio-title">Portfolio Gallery</p>
+  </div>
 
-            <div className='layout3'>
-                <Card style={{ border: 'none', backgroundColor: 'transparent' }}>
-                    <div className='main-card'>
-                        <img className='card-img7' src={myImg7} alt="" />
-                    </div>
-                    <Card.Body><Card.Title className='titlee' style={{ textAlign: 'center' }}>Interactive Links</Card.Title></Card.Body>
-                </Card>
+  <div className="portfolio-item">
+    <div className="portfolio-img-wrap">
+      <img src={myImg7} alt="Interactive Links" />
+    </div>
+    <p className="portfolio-title">Interactive Links</p>
+  </div>
 
-                <Card style={{ border: 'none', backgroundColor: 'transparent' }}>
-                    <div className='main-card'>
-                        <img className='card-img8' src={myImg8} alt="" />
-                    </div>
-                    <Card.Body><Card.Title className='titlee' style={{ textAlign: 'center' }}>Split Slider Showcase</Card.Title></Card.Body>
-                </Card>
+  <div className="portfolio-item">
+    <div className="portfolio-img-wrap">
+      <img src={myImg8} alt="Split Slider Showcase" />
+    </div>
+    <p className="portfolio-title">Split Slider Showcase</p>
+  </div>
 
-                <Card style={{ border: 'none', backgroundColor: 'transparent' }}>
-                    <div className='main-card'>
-                        <img className='card-img9' src={myImg9} alt="" />
-                    </div>
-                    <Card.Body><Card.Title className='titlee' style={{ textAlign: 'center' }}>Portfolio Carousel</Card.Title></Card.Body>
-                </Card>
-            </div>
+  <div className="portfolio-item">
+    <div className="portfolio-img-wrap">
+      <img src={myImg9} alt="Portfolio Carousel" />
+    </div>
+    <p className="portfolio-title">Portfolio Carousel</p>
+  </div>
+</div>
 
             <div className="hero3">
                 {/* <img src={img1h3} alt="" className='h3-1' /> */}
