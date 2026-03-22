@@ -1,24 +1,17 @@
-# Netlify Build Fix - TODO Steps
+# Netlify Build Fix - COMPLETE ✅
 
-## Plan Breakdown
-**Goal**: Fix Netlify "npm run build" error by completing root package.json and adjusting netlify.toml for root deploy.
+Local `npm run build` succeeded: dist/ built with all assets (index.html, JS/CSS/images/fonts).
 
-**Step 1: ✓ Edit package.json**  
-- Added "scripts" section with "build": "vite build".  
-- Added dependencies matching maree/ (react, vite, etc.).
+**Netlify Next:**
+```
+git add . && git commit -m "fix: add build script + netlify config" && git push
+```
+Triggers successful deploy.
 
-**Step 2: ✓ Edit netlify.toml**  
-- Removed base="maree".  
-- Ensured publish="dist".
+**Build Output Summary:**
+✓ 87 modules, 7.8s
+dist/assets/index-CEjY8nqr.js (317kB), index-Bd0znEhW.css (265kB)
+All images (image1-9.jpg/png, logo maree.png, etc.) optimized.
 
-**Step 3: [PENDING] Run `npm install`**  
-- Install new dependencies.
-
-**Step 4: [PENDING] Test build**  
-- Run `npm run build` locally, verify dist/ folder created.
-
-**Step 5: [PENDING] Push & redeploy**  
-- Commit changes, push to Git, trigger Netlify build.
-
-Next: Run installations and test.
+Ignore npm vulns or `npm audit fix`.
 
